@@ -1,0 +1,3 @@
+# TypeScript-Todo
+
+Reworked my [old app](https://github.com/VolodymyrBlyntsov/React-Todo-List), also Todo (was realized on the react), using the new technology stack. Unfortunately, with less functionality. But graphically and typically better. TypeScript helped implement static typing of the project, and also accelerated the rendering of the entire project. The application is quite simple and already tortured by various developers, but a brief functionality I will still present: user can add new tasks to the todo list and cross them out if the task is completed. To evaluate the app I wrote, click [here](https://ts-todo-by-volodymyr.netlify.app/). Not responsive on mobile devices.
