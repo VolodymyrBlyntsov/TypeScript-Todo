@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 
 interface TodoFormProps {
-
+    addTodo: AddTodo;
 }
 
 export const TodoForm: React.FC<TodoFormProps> = ({addTodo}) => {
