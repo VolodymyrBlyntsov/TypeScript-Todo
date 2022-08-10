@@ -8,15 +8,17 @@ interface TodoListProps {
 
 export const TodoList: React.FC<TodoListProps> = ({todos, toggleComplete}) => {
     return (
-        <ul>
-            {
-                todos.map(todo => (
-                    <TodoListItem
-                        key={todo.text}
-                        todo={todo}
-                        ToggleComplete={toggleComplete}
-                    />
-            ))}
-        </ul>
+        <div>
+            <ul>
+                {
+                    todos.map(todo => (
+                        <TodoListItem
+                            key={todo.text}
+                            todo={todo}
+                            ToggleComplete={toggleComplete}
+                        />
+                ))}
+            </ul>
+        </div>
     )
 }

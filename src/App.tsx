@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import './App.css';
+import './App.scss';
 import { TodoForm } from './components/TodoForm';
 import { TodoList } from './components/TodoList';
 
@@ -23,7 +23,7 @@ function App() {
   }
 
   return (
-    <div className="App">
+    <div className="todo-app">
       <h1> Todo App </h1>
       <TodoForm addTodo={addTodo} />
       <TodoList todos={todos} toggleComplete={toggleComplete} />

@@ -6,6 +6,7 @@ interface TodoListItemProps {
 }
 
 export const TodoListItem: React.FC<TodoListItemProps> = ({todo, ToggleComplete}) => {
+
   return (
     <li  className={todo.complete? "todo-row completed" : "todo-row"} >
         <label>
